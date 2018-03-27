@@ -8,7 +8,8 @@ Install by running the npm install command.
 # Usage
 Basic usage
 ```
-import roloc from 'roloc';
+import roloc from 'roloc'; // ES6
+// var roloc = require('roloc').default // ES5;
 
 const style = {
   name : {
@@ -22,6 +23,19 @@ const style = {
   }
 }
 
+/**
+ES5 compatible
+module.exports = function(props) {
+  return (
+    <div className='bioCard' style={{backgroundColor: roloc()}}>
+      <div className='name' style={style.name}></div>
+      <div className='picture' style={style.picture}></div>
+    </div>
+  )
+}
+*/
+
+// ES6
 export default (props) => (
   <div className='bioCard' style={{backgroundColor: roloc()}}>
     <div className='name' style={style.name}></div>
@@ -32,7 +46,7 @@ export default (props) => (
 
 Colorblind Usage
 ```
-import { rolocColorBlind } from 'roloc';
+import { rolocColorBlind } from 'roloc'; // ES6
 
 const style = {
   name : {
