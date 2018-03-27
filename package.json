@@ -1,0 +1,33 @@
+{
+  "name": "roloc",
+  "version": "1.0.0",
+  "description": "Intelligently selected color distributions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfehrman/roloc.git"
+  },
+  "keywords": [
+    "intelligent",
+    "random",
+    "color"
+  ],
+  "author": "Joseph Fehrman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfehrman/roloc/issues"
+  },
+  "homepage": "https://github.com/jfehrman/roloc#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.3",
+    "webpack": "^4.2.0",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
