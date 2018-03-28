@@ -42,7 +42,7 @@ const rolocState = (function() {
  * 
  * @param {number} jump Number of colors to jump.
  */
-export default (jump) => {
+export default (jump = 5) => {
   
   const colors = [
     'Orange',
@@ -71,14 +71,8 @@ export default (jump) => {
 let colorPick = (colors, jump) => {
 
   const state = rolocState.getInstance();
-  if (jump && typeof jump == 'number') {
-    
-    state.setLastIndex((state.getLastIndex() + jump) % colors.length);
-  } else {
-
-    state.setLastIndex((state.getLastIndex() + 5) % colors.length);
-  }
-
+  jump = (jump && typeof jump == 'number') ? jump : 5;
+  state.setLastIndex((state.getLastIndex() + jump) % colors.length);
   const color = colors[state.getLastIndex()];
 
   return color;

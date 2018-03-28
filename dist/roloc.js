@@ -48,7 +48,9 @@ var rolocState = function () {
  * @param {number} jump Number of colors to jump.
  */
 
-exports.default = function (jump) {
+exports.default = function () {
+  var jump = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 5;
+
 
   var colors = ['Orange', 'OrangeRed', 'Red', 'MediumVioletRed', 'Violet', 'BlueViolet', 'Blue', '#0d98ba', 'Green', 'GreenYellow', 'Yellow', '#ffae42'];
 
@@ -66,14 +68,8 @@ exports.default = function (jump) {
 var colorPick = function colorPick(colors, jump) {
 
   var state = rolocState.getInstance();
-  if (jump && typeof jump == 'number') {
-
-    state.setLastIndex((state.getLastIndex() + jump) % colors.length);
-  } else {
-
-    state.setLastIndex((state.getLastIndex() + 5) % colors.length);
-  }
-
+  jump = jump && typeof jump == 'number' ? jump : 5;
+  state.setLastIndex((state.getLastIndex() + jump) % colors.length);
   var color = colors[state.getLastIndex()];
 
   return color;
