@@ -1,6 +1,8 @@
 # roloc
 A library that selects a color from a list of the primary and secondary colors (or grey scale in color blind mode) with a high contrast.
 
+![Roloc Image](./docs/roloc.gif)
+
 # Install
 Install by running the npm install command.
 ```npm i --save roloc```
