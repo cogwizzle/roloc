@@ -28,5 +28,7 @@
     "babel-preset-es2015": "^6.24.1",
     "jest": "^22.4.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hoek": "^5.0.3"
+  }
 }
