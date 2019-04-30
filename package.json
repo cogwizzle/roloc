@@ -1,6 +1,6 @@
 {
   "name": "roloc",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Intelligently selected color distributions.",
   "main": "dist/roloc.js",
   "scripts": {
