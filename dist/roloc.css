@@ -1,0 +1,114 @@
+.roloc:nth-child(1n+1) {
+  background-color: blueviolet;
+  color: white;
+}
+
+.roloc:nth-child(2n+2) {
+  background-color: yellow;
+  color: black;
+}
+
+.roloc:nth-child(3n+3) {
+  background-color: mediumvioletred;  
+  color: white;
+}
+
+.roloc:nth-child(4n+4) {
+  background-color: green;
+  color: white;
+}
+
+.roloc:nth-child(5n+5) {
+  background-color: orangered;
+  color: white;
+}
+
+.roloc:nth-child(6n+6) {
+  background-color:  blue;
+  color: white;
+}
+
+.roloc:nth-child(7n+7) {
+  background-color: #ffae42;
+  color: black;
+}
+
+.roloc:nth-child(8n+8) {
+  background-color: violet;
+  color: black;
+}
+
+.roloc:nth-child(9n+9) {
+  background-color: greenyellow;
+  color: black;
+}
+
+.roloc:nth-child(10n+10) {
+  background-color: red;
+  color: white;
+}
+
+.roloc:nth-child(11n+11) {
+  background-color: #0d98ba;
+  color: black;
+}
+
+.roloc:nth-child(12n+12) {
+  background-color: orange;
+  color: black;
+}
+
+.roloc-cb:nth-child(1n+1) {
+  background-color: #909090;
+  color: black;
+}
+
+.roloc-cb:nth-child(2n+2) {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.roloc-cb:nth-child(3n+3) {
+  background-color: #707070;  
+  color: white;
+}
+
+.roloc-cb:nth-child(4n+4) {
+  background-color: #F0F0F0;
+  color: black;
+}
+
+.roloc-cb:nth-child(5n+5) {
+  background-color: #585858;
+  color: white;
+}
+
+.roloc-cb:nth-child(6n+6) {
+  background-color:  #d8d8d8;
+  color: black;
+}
+
+.roloc-cb:nth-child(7n+7) {
+  background-color: #383838;
+  color: white;
+}
+
+.roloc-cb:nth-child(8n+8) {
+  background-color: #c0c0c0;
+  color: black;
+}
+
+.roloc-cb:nth-child(9n+9) {
+  background-color: #181818;
+  color: white;
+}
+
+.roloc-cb:nth-child(10n+10) {
+  background-color: #a9a9a9;
+  color: black;
+}
+
+.roloc-cb:nth-child(11n+11) {
+  background-color: #000000;
+  color: white;
+}

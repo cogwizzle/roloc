@@ -8,7 +8,16 @@ Install by running the npm install command.
 ```npm i --save roloc```
 
 # Usage
-Basic usage
+CSS only
+```
+import 'roloc/roloc.css';
+
+// Now just add the roloc or roloc-cb class to your html.
+// Doesn't have to be in JSX you can use it in plain html, just using JSX for the example.
+export default () => <div className="roloc">Hello World!</div>;
+```
+
+Basic usage (CSS in JS)
 ```
 import roloc from 'roloc'; // ES6
 // var roloc = require('roloc').default // ES5;
